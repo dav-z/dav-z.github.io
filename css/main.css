@@ -2,7 +2,7 @@ body {
   background-color: black; }
   body .nav {
     position: fixed;
-    z-index: 1; }
+    z-index: 99999; }
     body .nav .logo {
       background-image: url("../images/dzlogo.png");
       background-size: contain;
