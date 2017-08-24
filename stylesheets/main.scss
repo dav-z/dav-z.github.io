@@ -101,7 +101,7 @@ body {
   z-index: 999;
   margin-top: 15vh;
   .namething {
-    font-size: 8em;
+    font-size: 15vmin;
     margin-bottom: 0;
   }
 }
@@ -113,7 +113,7 @@ body {
   /*padding: 10em 1em;*/
   color: white;
   overflow: hidden;
-  font-size: 1em;
+  font-size: 2vmin;
 }
 
 .fullsize {
@@ -121,11 +121,11 @@ body {
 }
 
 .workthing img {
-  width: 40vw;
+  width: 70vmin;
 }
 
 .parallax h1 {
-  font-size: 4em;
+  font-size: 5vmin;
   text-shadow: 1px 1px 2px black;
   margin-bottom: 15px;
   font-family: 'Josefin Slab', serif;
@@ -134,9 +134,9 @@ body {
 
 .parallax p {
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 2vmin;
   /*text-transform: uppercase;*/
-  letter-spacing: 0.1em;
+  /*letter-spacing: 0.1em;*/
   font-weight: bold;
   color: white;
   width: 60vw;
@@ -148,19 +148,21 @@ body {
 .spacer {
   display: block;
   color: #333;
+  text-align: center;
   /*padding: 3em 0;*/
   background-color: #fff;
+  overflow: hidden;
   /*height: 100vh;*/
 }
 
 .spacer h3 {
   font-family: 'Josefin Slab', serif;
-  font-size: 3em;
+  font-size: 5vmin;
   margin-bottom: 15px;
 }
 
 .spacer h1 {
-  font-size: 4em;
+  font-size: 5vmin;
   text-shadow: 1px 1px 2px black;
   margin-bottom: 15px;
   font-family: 'Josefin Slab', serif;
@@ -169,9 +171,9 @@ body {
 
 .spacer p {
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 2vmin;
   /*text-transform: uppercase;*/
-  letter-spacing: 0.1em;
+  /*letter-spacing: 0.1em;*/
   font-weight: bold;
   color: black;
   text-shadow: 0 1px 0 rgba(255,255,255,0.75);
@@ -185,12 +187,12 @@ button {
   padding: 0.5em 1em;
   border-radius: 4px;
   background: none;
-  font-size: 1.25em;
+  font-size: 2vmin;
   color: #555;
   display: inline-block;
   margin: 10px;
   vertical-align: top;
-  width: 20vw;
+  width: 20vmin;
 }
 
 button:hover {
@@ -199,8 +201,8 @@ button:hover {
 
 .button1, .button2 {
   font-family: 'Karla', sans-serif;
-  width: 20vw;
-  height: 3vw;
+  width: 20vmin;
+  height: 5vmin;
   background-color: transparent;
   border: 1px solid black;
   margin-right: 0.5vw;
